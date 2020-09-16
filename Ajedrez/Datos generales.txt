@@ -1,0 +1,21 @@
+Fuente: Get Schwifty
+color:#05CAD2
+Borde-color:#6AB966
+
+
+Fondo inicio:
+opacidad: 10%
+
+
+Fondo Partida:
+opacidad:15%
+
+Tablero:
+Casillas:#AA8A0A
+	 #05CAD2
+Border-color:#F0DA0B
+2px
+
+Fondo victoria y derrota
+Opacity:75%
+color fuente: #FFFFFF
