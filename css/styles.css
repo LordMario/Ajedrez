@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'GetSchwifty';
+    src: url('../assets/font/GetSchwifty-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body{
+    margin: 0;
+}
+
+.content-main{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fondo{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    scale: 1.1;
+}
+
+.content-main > .fondo-inicio2{    
+    position: absolute;    
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.1;
+    z-index: 999;
+    top: 0;
+    
+}
+
+.content-main > .content-img{
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    top: 80%;
+    width: 100%;
+    cursor: pointer;
+}
