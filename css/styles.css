@@ -31,6 +31,10 @@ body{
     scale: 1.1;
 }
 
+.fondo-mobile{
+    display: none;
+}
+
 .content-main > .fondo-inicio2{    
     position: absolute;    
     height: 100vh;
@@ -49,6 +53,41 @@ body{
     top: 80%;
     width: 100%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+
+    .fondo{
+        display: none;
+    }
+
+    /* .content-main{
+        background-image: url('../assets/Imagenes/Fondo inicioV2.png');
+        background-position: center bottom;
+        background-size: cover;
+    } */
+
+    .fondo-mobile{
+        display: block;
+        scale: 1;
+    }
+
+    .content-main > .content-img img{
+        width: 50%;
+        
+    }
+
+    .content-main > .content-img {
+        top: 83%;
+    }
+
+    .content-img > a{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        top: 100%;
+    }
+
 }
 
 /* DASHBOARD */
