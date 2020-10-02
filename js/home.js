@@ -1,5 +1,7 @@
 var background = document.getElementById('fondo')
-
+var total_seg;
+var total_min;
+var cronometro;
 window.onload = function() {
     document.onmousemove = function(e) {
         var x = -(e.clientX/80);
@@ -7,3 +9,8 @@ window.onload = function() {
         background.style.translate = x + 'px ' + y + 'px';
     };
 };
+
+function autoplay(){
+    iniciartiempo();
+}
+autoplay();
